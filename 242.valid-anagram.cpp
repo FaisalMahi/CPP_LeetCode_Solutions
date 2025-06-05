@@ -1,3 +1,6 @@
+//Question Link: https://leetcode.com/problems/valid-anagram/
+
+
 /*
  * @lc app=leetcode id=242 lang=cpp
  *
@@ -10,12 +13,9 @@ class Solution
 public:
     bool isAnagram(string s, string t)
     {
-        string s1 = sort(s.begin(), s.end());
-        string s2 = sort(t.begin(), t.end());
-        if (s1 == s2)
-            return true;
-        else
-            return false;
+        sort(s.begin(), s.end());
+        sort(t.begin(), t.end());
+        return s == t;
     }
 };
 // @lc code=end
