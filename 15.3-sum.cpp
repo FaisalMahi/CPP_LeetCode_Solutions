@@ -1,5 +1,4 @@
-//Question Link: https://leetcode.com/problems/3sum
-
+// Question Link: https://leetcode.com/problems/3sum
 
 /*
  * @lc app=leetcode id=15 lang=cpp
@@ -39,7 +38,6 @@ public:
         {
             return {};
         }
-        results.clear();
         sort(begin(nums), end(nums));
 
         for (int i = 0; i < n; i++)
