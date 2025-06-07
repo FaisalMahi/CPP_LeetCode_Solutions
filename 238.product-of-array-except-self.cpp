@@ -1,5 +1,4 @@
-//Question Link: https://leetcode.com/problems/product-of-array-except-self
-
+// Question Link: https://leetcode.com/problems/product-of-array-except-self
 
 /*
  * @lc app=leetcode id=238 lang=cpp
