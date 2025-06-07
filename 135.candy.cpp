@@ -1,5 +1,4 @@
-//Question Link: https://leetcode.com/problems/candy
-
+// Question Link: https://leetcode.com/problems/candy
 
 /*
  * @lc app=leetcode id=135 lang=cpp
