@@ -1,5 +1,4 @@
-//Question Link: https://leetcode.com/problems/search-insert-position
-
+// Question Link: https://leetcode.com/problems/search-insert-position
 
 /*
  * @lc app=leetcode id=35 lang=cpp
@@ -8,6 +7,9 @@
  */
 
 // @lc code=start
+
+/* *****First Approach. Time Complexity: O(N)***** */
+
 class Solution
 {
 public:
@@ -28,6 +30,35 @@ public:
             }
         }
         return ans;
+    }
+};
+
+/* *****Second Approach. Time Complexity: O(Log N)***** */
+
+class Solution
+{
+public:
+    int searchInsert(vector<int> &nums, int target)
+    {
+        int sz = nums.size();
+        int left = 0, right = sz - 1;
+        while (left <= right)
+        {
+            int mid = (left + right) / 2;
+            if (nums[mid] == target)
+            {
+                return mid;
+            }
+            if (nums[mid] < target)
+            {
+                left = mid + 1;
+            }
+            else
+            {
+                right = mid - 1;
+            }
+        }
+        return left;
     }
 };
 // @lc code=end
