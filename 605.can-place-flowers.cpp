@@ -1,5 +1,4 @@
-//Question Link: https://leetcode.com/problems/can-place-flowers
-
+// Question Link: https://leetcode.com/problems/can-place-flowers
 
 /*
  * @lc app=leetcode id=605 lang=cpp
