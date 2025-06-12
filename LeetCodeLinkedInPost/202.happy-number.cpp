@@ -24,7 +24,7 @@ public:
     bool isHappy(int n)
     {
         int slow = n, fast = getNext(n);
-        while (fast != 1 && slow != fast)
+        while (fast != 1 &&slow != fast)
         {
             slow = getNext(slow);
             fast = getNext(getNext(fast));

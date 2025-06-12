@@ -1,4 +1,4 @@
-//Question Link: https://leetcode.com/problems/delete-node-in-a-linked-list/
+// Question Link: https://leetcode.com/problems/delete-node-in-a-linked-list/
 
 /*
  * @lc app=leetcode id=237 lang=cpp
