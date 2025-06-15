@@ -8,7 +8,7 @@
 
 // @lc code=start
 
-/* *****First Approach. Time Complexity: O(N)***** */
+/* *****  First Approach: Linear Search.  ***** */
 
 class Solution
 {
@@ -33,7 +33,7 @@ public:
     }
 };
 
-/* *****Second Approach. Time Complexity: O(Log N)***** */
+/* *****  Second Approach. Binary Search.  ***** */
 
 class Solution
 {
