@@ -29,7 +29,7 @@ public:
         {
             if (tmp->val == tmp->next->val)
             {
-                tmp = tmp->next->next;
+                tmp->next = tmp->next->next;
             }
             if (tmp->next == NULL)
                 break;
