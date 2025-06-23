@@ -1,4 +1,4 @@
-//Question Link: https://leetcode.com/problems/remove-duplicates-from-sorted-list/
+// Question Link: https://leetcode.com/problems/remove-duplicates-from-sorted-list/
 
 /*
  * @lc app=leetcode id=83 lang=cpp
