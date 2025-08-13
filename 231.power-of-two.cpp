@@ -1,3 +1,5 @@
+// Question Link: https://leetcode.com/problems/power-of-two
+
 /*
  * @lc app=leetcode id=231 lang=cpp
  *
@@ -13,14 +15,14 @@ public:
         int cmp = n;
         if (n == 1)
             return true;
-        else if (n == 0)
+        else if (n <= 0)
             return false;
         else if (n % 2 != 0)
             return false;
 
         else
         {
-            while (cmp >= 0)
+            while (cmp > 1)
             {
                 cmp = n / 2;
                 n = n / 2;
